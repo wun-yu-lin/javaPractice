@@ -29,5 +29,6 @@ public class TextBlock {
         title = "Java Tutorial";
         content = "<b>Hello, World</b>";
         System.out.println(html.formatted(title, content));
+        
     }
 }

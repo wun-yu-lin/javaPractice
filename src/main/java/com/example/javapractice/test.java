@@ -9,5 +9,10 @@ public class test {
         int a = 1;
         a++;
         int b = 1;
+
+        int i = 1;
+        int ii = 2;
+
+        System.out.print(i+ ","+ii);
     }
 }
