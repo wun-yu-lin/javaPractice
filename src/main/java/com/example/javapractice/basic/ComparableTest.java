@@ -1,28 +1,12 @@
-package com.example.javapractice;
+package com.example.javapractice.basic;
 
-import java.util.*;
+import com.example.javapractice.test;
 
-public class test {
-//    public static void main(String[] args) {
-////        int number = 123_12321;
-////        int num2 = 0b101010101010;
-////
-////        System.out.println(num2);
-//        int a = 1;
-//        a++;
-//        int b = 1;
-//
-//        int i = 1;
-//        int ii = 2;
-//
-//        System.out.print(i+ ","+ii);
-//        Queue<Integer> queue = new LinkedList<>();
-//
-//
-//
-//    }
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.List;
 
-
+public class ComparableTest {
     record Customer(String name, int age) implements Comparable<Customer> {
         @Override
         public int compareTo(Customer o) {
@@ -37,9 +21,5 @@ public class test {
         );
         Collections.sort(accounts);
         accounts.forEach(System.out::println);
-        HashMap<String, Integer> map = new HashMap<>();
     }
-
-
-
 }
