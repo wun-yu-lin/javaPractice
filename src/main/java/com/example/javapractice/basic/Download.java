@@ -1,6 +1,6 @@
 package com.example.javapractice.basic;
 
-import org.springframework.boot.autoconfigure.couchbase.CouchbaseProperties;
+import com.example.javapractice.basic.stream.StreamTest;
 
 import java.io.FileOutputStream;
 import java.io.InputStream;

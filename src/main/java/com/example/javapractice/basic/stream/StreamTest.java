@@ -1,4 +1,4 @@
-package com.example.javapractice.basic;
+package com.example.javapractice.basic.stream;
 
 import java.io.IOException;
 import java.io.InputStream;
