@@ -37,10 +37,6 @@ public class test {
         );
         Collections.sort(accounts);
         accounts.forEach(System.out::println);
-        //
-        //test commit
-        String.valueOf(1);
-        //d
     }
 
 
