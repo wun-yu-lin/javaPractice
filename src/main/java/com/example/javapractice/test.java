@@ -37,8 +37,6 @@ public class test {
         );
         Collections.sort(accounts);
         accounts.forEach(System.out::println);
-
-        gitTest();
     }
 
 
