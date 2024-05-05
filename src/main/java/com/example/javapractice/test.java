@@ -38,6 +38,7 @@ public class test {
         Collections.sort(accounts);
         accounts.forEach(System.out::println);
         HashMap<String, Integer> map = new HashMap<>();
+        map.put("John", 100);
         //
         //test commit
     }
